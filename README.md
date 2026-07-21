@@ -54,6 +54,7 @@ Data is automatically saved and loaded between sessions.
 
 ## 🚀 How to Run
 
+>Follow ![Download Instructions](Download Instructions)
 1. Clone this repository.
 2. Open the project in **Godot 4.6 (.NET)**.
 3. Build the C# project.
