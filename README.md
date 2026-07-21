@@ -18,6 +18,23 @@ A simple and lightweight flashcard application built with **Godot 4.6 (.NET)** a
 
 ---
 
+## 🎯 Design Philosophy
+
+This project follows a **minimalist and lightweight** design philosophy.
+
+Instead of focusing on excessive visual effects or unnecessary complexity, the application prioritizes clarity, usability, and responsiveness. Every feature included serves a practical purpose, allowing users to focus on their task without distractions.
+
+The lightweight architecture also keeps the application accessible across a wide range of hardware, making it suitable for both modern and older systems while maintaining a smooth user experience.
+
+**Core principles:**
+- 🎯 Simple and intuitive user interface
+- ⚡ Lightweight and responsive
+- 🧩 Focused on essential functionality
+- 📖 Easy to learn and easy to use
+- 🌍 Designed to be accessible on a wide range of devices
+
+---
+
 ## 🛠️ Built With
 
 - **Godot Engine 4.6 (.NET)**
