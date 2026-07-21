@@ -39,15 +39,16 @@ Data is automatically saved and loaded between sessions.
 
 ## 📸 Screenshots
 
-> Add screenshots of your application here.
-
 ### Home Screen
 
-![Home Screen](Screenshots/home.png)
+![Home Screen](Screenshots/Home.png)
 
 ### Add Flashcard
 
-![Add Flashcard](Screenshots/add_flashcard.png)
+![Add Flashcard](Screenshots/AddFlashcard.png)
+
+### Add Category
+![Add Category](Screenshots/AddCategory.png)
 
 ---
 
