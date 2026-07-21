@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://dc027tsw8i7w2"]
+
+[ext_resource type="Script" uid="uid://c7bdyglcopqmi" path="res://Scripts/AddCategory.cs" id="1_mwot0"]
+
+[node name="Control" type="Control" unique_id=654578437]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mwot0")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1792160079]
+layout_mode = 0
+offset_right = 1921.0
+offset_bottom = 852.0
+color = Color(0, 0, 0, 0.7529412)
+
+[node name="Label" type="Label" parent="." unique_id=592682127]
+layout_mode = 0
+offset_left = 591.0
+offset_top = 386.0
+offset_right = 832.0
+offset_bottom = 434.0
+theme_override_font_sizes/font_size = 30
+text = "Category Name: "
+
+[node name="CategoryName" type="TextEdit" parent="." unique_id=457333454]
+layout_mode = 0
+offset_left = 850.0
+offset_top = 370.0
+offset_right = 1238.0
+offset_bottom = 445.0
+theme_override_font_sizes/font_size = 30
+
+[node name="AddCategory" type="Button" parent="." unique_id=2036557291]
+layout_mode = 0
+offset_left = 950.0
+offset_top = 467.0
+offset_right = 1163.0
+offset_bottom = 524.0
+theme_override_font_sizes/font_size = 30
+text = "Add Category"

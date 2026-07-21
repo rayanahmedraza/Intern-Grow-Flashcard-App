@@ -1,0 +1,151 @@
+[gd_scene format=3 uid="uid://dt4yqvt6isovm"]
+
+[ext_resource type="Script" uid="uid://dj0tux7ahnfhe" path="res://Scripts/HomeScreen.cs" id="1_jjgbg"]
+
+[node name="Node2D" type="Node2D" unique_id=418173178]
+
+[node name="HomeScreen" type="CanvasLayer" parent="." unique_id=1338516269]
+
+[node name="Control" type="Control" parent="HomeScreen" unique_id=583170563]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1921.0
+offset_bottom = 850.0
+script = ExtResource("1_jjgbg")
+
+[node name="ColorRect" type="ColorRect" parent="HomeScreen/Control" unique_id=649540051]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 4.0
+offset_right = 1925.0
+offset_bottom = 858.0
+color = Color(0, 0, 0, 1)
+
+[node name="Answer" type="Label" parent="HomeScreen/Control" unique_id=565098977]
+layout_mode = 0
+offset_left = 609.0
+offset_top = 435.0
+offset_right = 1315.0
+offset_bottom = 531.0
+theme_override_font_sizes/font_size = 30
+autowrap_mode = 2
+
+[node name="Next" type="Button" parent="HomeScreen/Control" unique_id=729667221]
+layout_mode = 0
+offset_left = 1002.0
+offset_top = 550.0
+offset_right = 1086.0
+offset_bottom = 594.0
+theme_override_font_sizes/font_size = 30
+text = "Next
+"
+
+[node name="Prev" type="Button" parent="HomeScreen/Control" unique_id=1266919974]
+layout_mode = 0
+offset_left = 824.0
+offset_top = 551.0
+offset_right = 905.0
+offset_bottom = 595.0
+theme_override_font_sizes/font_size = 30
+text = "Prev"
+
+[node name="AddFlashcard" type="Button" parent="HomeScreen/Control" unique_id=541369725]
+layout_mode = 0
+offset_left = 836.0
+offset_top = 632.0
+offset_right = 1063.0
+offset_bottom = 689.0
+theme_override_font_sizes/font_size = 30
+text = "Add Flashcard"
+
+[node name="Question" type="Label" parent="HomeScreen/Control" unique_id=820043893]
+layout_mode = 0
+offset_left = 609.0
+offset_top = 330.0
+offset_right = 1315.0
+offset_bottom = 426.0
+theme_override_font_sizes/font_size = 30
+autowrap_mode = 2
+
+[node name="Category" type="Label" parent="HomeScreen/Control" unique_id=661617194]
+layout_mode = 0
+offset_left = 609.0
+offset_top = 261.0
+offset_right = 843.0
+offset_bottom = 319.0
+theme_override_font_sizes/font_size = 30
+autowrap_mode = 2
+
+[node name="Ans" type="Label" parent="HomeScreen/Control" unique_id=175182893]
+layout_mode = 0
+offset_left = 461.0
+offset_top = 435.0
+offset_right = 605.0
+offset_bottom = 480.0
+theme_override_font_sizes/font_size = 30
+text = "Answer:"
+autowrap_mode = 2
+
+[node name="Ques" type="Label" parent="HomeScreen/Control" unique_id=2072070651]
+layout_mode = 0
+offset_left = 461.0
+offset_top = 330.0
+offset_right = 605.0
+offset_bottom = 375.0
+theme_override_font_sizes/font_size = 30
+text = "Question:"
+autowrap_mode = 2
+
+[node name="Cate" type="Label" parent="HomeScreen/Control" unique_id=1683431685]
+layout_mode = 0
+offset_left = 461.0
+offset_top = 261.0
+offset_right = 605.0
+offset_bottom = 306.0
+theme_override_font_sizes/font_size = 30
+text = "Category:"
+autowrap_mode = 2
+
+[node name="CategorySelect" type="OptionButton" parent="HomeScreen/Control" unique_id=1414569445]
+layout_mode = 0
+offset_left = 1189.0
+offset_top = 67.0
+offset_right = 1300.0
+offset_bottom = 100.0
+
+[node name="SelectCategory" type="Label" parent="HomeScreen/Control" unique_id=1477496083]
+layout_mode = 0
+offset_left = 954.0
+offset_top = 58.0
+offset_right = 1177.0
+offset_bottom = 100.0
+theme_override_font_sizes/font_size = 30
+text = "Select Category:"
+
+[node name="DeleteFlashcard" type="Button" parent="HomeScreen/Control" unique_id=1402945567]
+layout_mode = 0
+offset_left = 650.0
+offset_top = 706.0
+offset_right = 899.0
+offset_bottom = 756.0
+theme_override_font_sizes/font_size = 30
+text = "Delete Flashcard"
+
+[node name="EditFlashcard" type="Button" parent="HomeScreen/Control" unique_id=1328918664]
+layout_mode = 0
+offset_left = 1010.0
+offset_top = 711.0
+offset_right = 1221.0
+offset_bottom = 761.0
+theme_override_font_sizes/font_size = 30
+text = "Edit Flashcard"
+
+[node name="ToggleAnswer" type="Button" parent="HomeScreen/Control" unique_id=1287876174]
+layout_mode = 0
+offset_left = 1331.0
+offset_top = 481.0
+offset_right = 1549.0
+offset_bottom = 531.0
+theme_override_font_sizes/font_size = 30
+text = "Toggle Answer
+"

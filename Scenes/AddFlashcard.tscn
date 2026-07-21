@@ -1,0 +1,86 @@
+[gd_scene format=3 uid="uid://dtl30b62dew6q"]
+
+[ext_resource type="Script" uid="uid://dl2gne113sl3i" path="res://Scripts/AddFlashcard.cs" id="1_fbrsn"]
+
+[node name="AddFlashcard" type="Control" unique_id=1666699037]
+z_index = 100
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1924.0
+offset_bottom = 848.0
+script = ExtResource("1_fbrsn")
+
+[node name="Background" type="ColorRect" parent="." unique_id=1964441568]
+layout_mode = 0
+offset_right = 1924.0
+offset_bottom = 848.0
+color = Color(0, 0, 0, 0.7529412)
+
+[node name="Question" type="Label" parent="." unique_id=1149730199]
+layout_mode = 0
+offset_left = 388.0
+offset_top = 362.0
+offset_right = 528.0
+offset_bottom = 425.0
+theme_override_font_sizes/font_size = 30
+text = "Question:"
+
+[node name="Category" type="Label" parent="." unique_id=1925504100]
+layout_mode = 0
+offset_left = 390.0
+offset_top = 269.0
+offset_right = 515.0
+offset_bottom = 327.0
+theme_override_font_sizes/font_size = 30
+text = "Category:"
+
+[node name="Label" type="Label" parent="." unique_id=2055673844]
+layout_mode = 0
+offset_left = 396.0
+offset_top = 531.0
+offset_right = 523.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 30
+text = "Answer:"
+
+[node name="CategoryInput" type="OptionButton" parent="." unique_id=811440881]
+layout_mode = 0
+offset_left = 545.0
+offset_top = 261.0
+offset_right = 728.0
+offset_bottom = 323.0
+theme_override_font_sizes/font_size = 30
+
+[node name="QuestionInput" type="TextEdit" parent="." unique_id=163241916]
+layout_mode = 0
+offset_left = 542.0
+offset_top = 346.0
+offset_right = 1131.0
+offset_bottom = 478.0
+theme_override_font_sizes/font_size = 30
+
+[node name="AnswerInput" type="TextEdit" parent="." unique_id=1673170800]
+layout_mode = 0
+offset_left = 542.0
+offset_top = 521.0
+offset_right = 1127.0
+offset_bottom = 660.0
+theme_override_font_sizes/font_size = 30
+
+[node name="Add" type="Button" parent="." unique_id=243158131]
+layout_mode = 0
+offset_left = 700.0
+offset_top = 700.0
+offset_right = 915.0
+offset_bottom = 759.0
+theme_override_font_sizes/font_size = 40
+text = "Add"
+
+[node name="AddCategory" type="Button" parent="." unique_id=1646333510]
+layout_mode = 0
+offset_left = 748.0
+offset_top = 266.0
+offset_right = 950.0
+offset_bottom = 316.0
+theme_override_font_sizes/font_size = 30
+text = "Add Category"
